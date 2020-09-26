@@ -2,10 +2,10 @@
 title: Dhanabhon Subha-asavabhokhin
 email: hello@thanaphon.com
 url: https://dhanabhon.github.io
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
-keywords: "your keywords, separated by commas"
-skills: "Ph.D. student - Software Develope"
-meta_author: Dhanabhon Subha-asavabhokhin
+description: "Portfolio website using Github Pages"
+keywords: "Dhanabhon, Subha-asavabhokhin, Portfolio, Software, Hardware, Development"
+skills: "Ph.D. student - Software Developer"
+meta_author: Dhanabhon S.
 
 # Google webmaster tools
 google_verify:
@@ -32,23 +32,23 @@ color:
 
 # Footer settings
 footer:
-  copyright: Dhanbhon Subha-asavabhokhin
+  copyright: dhanaphon.github.io
   location: Location
-  social: Around the Web
-  credits: Credits
+  # social: Around the Web
+  # credits: Credits
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
-social:
-  # - title: twitter
-  #   url: http://twitter.com/jekyllrb
-  # - title: facebook
-  #   url:
-  # - title: stack-overflow
-  #   url: http://stackoverflow.com/questions/tagged/jekyll
-  # - title: bitbucket
-  #   url: http://bitbucket.org/jekyll
-  - title: github
-    url: http://github.com/dhanabhon
+# social:
+#   - title: twitter
+#     url: http://twitter.com/dhanabhons
+#   # - title: facebook
+#   #   url:
+#   # - title: stack-overflow
+#   #   url: http://stackoverflow.com/questions/tagged/jekyll
+#   # - title: bitbucket
+#   #   url: http://bitbucket.org/jekyll
+#   - title: github
+#     url: http://github.com/dhanabhon
 
 # Postal address (add as many lines as necessary)
 address:
@@ -56,7 +56,7 @@ address:
   # - line: Beverly Hills, CA 90210
 
 # Credits content
-credits: 'Freelancer is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.'
+# credits: 'Freelancer is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.'
 
 # Build settings
 markdown: kramdown
