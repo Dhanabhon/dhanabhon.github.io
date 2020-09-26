@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator>
   <link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" />
   <link href="http://localhost:4000/" rel="alternate" type="text/html" />
-  <updated>2020-09-26T14:01:34+07:00</updated>
+  <updated>2020-09-26T21:52:21+07:00</updated>
   <id>http://localhost:4000/</id>
 
   
@@ -20,44 +20,10 @@
   
   
     <entry>
-      <title type="html">Project 1</title>
-      <link href="http://localhost:4000/" rel="alternate" type="text/html" title="Project 1" />
-      <published>2014-07-18T00:00:00+07:00</published>
-      <updated>2014-07-18T00:00:00+07:00</updated>
-      <id>http://localhost:4000/project-1</id>
-      <content type="html" xml:base="http://localhost:4000/"></content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name></name>
-        
-        
-      </author>
-
-      
-        <category term="Web Development" />
-      
-
-      
-
-      
-        <summary type="html"></summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">Project 2</title>
-      <link href="http://localhost:4000/" rel="alternate" type="text/html" title="Project 2" />
-      <published>2014-07-17T00:00:00+07:00</published>
-      <updated>2014-07-17T00:00:00+07:00</updated>
+      <title type="html">Money X Studio</title>
+      <link href="http://localhost:4000/" rel="alternate" type="text/html" title="Money X Studio" />
+      <published>2018-09-01T00:00:00+07:00</published>
+      <updated>2018-09-01T00:00:00+07:00</updated>
       <id>http://localhost:4000/project-2</id>
       <content type="html" xml:base="http://localhost:4000/"></content>
 
@@ -74,7 +40,41 @@
       </author>
 
       
-        <category term="Web Development" />
+        <category term="Desktop App Development" />
+      
+
+      
+
+      
+        <summary type="html"></summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">NFCT Desktop App</title>
+      <link href="http://localhost:4000/" rel="alternate" type="text/html" title="NFCT Desktop App" />
+      <published>2016-09-01T00:00:00+07:00</published>
+      <updated>2016-09-01T00:00:00+07:00</updated>
+      <id>http://localhost:4000/project-1</id>
+      <content type="html" xml:base="http://localhost:4000/"></content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name></name>
+        
+        
+      </author>
+
+      
+        <category term="Desktop App Development" />
       
 
       

@@ -1,0 +1,12 @@
+---
+layout: default
+modal-id: 1
+date: 2016-09-01
+img: cabin.png
+alt: image-alt
+title: NFCT Desktop App
+project-date: September 2016
+client: National Electronics and Computer Technology Center
+category: Desktop App Development
+description: Neurofeedback cognitive training (NFCT) is a desktop application for the interface between EEG headset and game to enhance cognitive performance in elderly.
+---
