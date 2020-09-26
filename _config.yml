@@ -1,6 +1,6 @@
 # Site settings
 title: Dhanabhon Subha-asavabhokhin
-email: hello@thanaphon.com
+email: thanaphon.spk@gmail.com
 url: https://dhanabhon.github.io
 description: "Portfolio website using Github Pages"
 keywords: "Dhanabhon, Subha-asavabhokhin, Portfolio, Software, Hardware, Development"
@@ -32,7 +32,7 @@ color:
 
 # Footer settings
 footer:
-  copyright: dhanaphon.github.io
+  copyright: dhanabhon.github.io
   location: Location
   # social: Around the Web
   # credits: Credits
