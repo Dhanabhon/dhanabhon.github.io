@@ -8,7 +8,7 @@ skills: "Ph.D. student - Software Developer"
 meta_author: Dhanabhon S.
 
 # Google webmaster tools
-google_verify:
+google_verify: Egdgvia77bQ2ysL11nIRPTzi2to3qWI6NUt8Ybmgl44
 
 # https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
 bing_verify:
@@ -25,8 +25,8 @@ disqus_shortname: myshortname
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
-  primary: 18bc9c #80B3FF
-  primary-rgb: "24,288,156" #"128,179,255"
+  primary: 68BCC5 #18bc9c #80B3FF
+  primary-rgb: "104,188,197" #"24,288,156" #"128,179,255"
   secondary: 2c3e50 #FD6E8A
   secondary-dark: 233140 #A2122F
 
@@ -38,7 +38,7 @@ footer:
   # credits: Credits
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
-# social:
+social:
 #   - title: twitter
 #     url: http://twitter.com/dhanabhons
 #   # - title: facebook
@@ -47,8 +47,8 @@ footer:
 #   #   url: http://stackoverflow.com/questions/tagged/jekyll
 #   # - title: bitbucket
 #   #   url: http://bitbucket.org/jekyll
-#   - title: github
-#     url: http://github.com/dhanabhon
+  - title: github
+    url: http://github.com/dhanabhon
 
 # Postal address (add as many lines as necessary)
 address:
