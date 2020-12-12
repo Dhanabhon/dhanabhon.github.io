@@ -4,6 +4,7 @@ modal-id: 4
 date: 2020-12-01
 img: game.png
 alt: image-alt
+title: IIoT Monitoring System
 project-date: Dec 2020
 client: Tech to Bot Co., Ltd.
 category: Web Development
