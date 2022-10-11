@@ -88,20 +88,22 @@ function commander(cmd) {
     case "whoami":
       loopLines(whoami, "color2 margin", 80);
       break;
-    case "video":
-      addLine("Opening YouTube...", "color2", 80);
-      newTab(youtube);
-      break;
     case "credit":
-        loopLines(credit, "color2 margin", 80);
-        break;
+      loopLines(credit, "color2 margin", 80);
+      break;
+    case "version":
+      loopLines(version, "color2 margin", 80);
+      break;
+    case "changelog":
+      loopLines(changelog, "color2 margin", 80);
+      break;
     case "sudo":
       addLine("Oh no, you're not admin...", "color2", 80);
       setTimeout(function() {
         window.open('https://www.youtube.com/watch?v=YnmjpuCm2PA');
       }, 1000); 
       break;
-    case "social":
+    case "socials":
       loopLines(social, "color2 margin", 80);
       break;
     case "secret":
@@ -133,10 +135,6 @@ function commander(cmd) {
       loopLines(banner, "", 80);
       break;
     // socials
-    case "youtube":
-      addLine("Opening YouTube...", "color2", 80);
-      newTab(youtube);
-      break;
     case "twitter":
       addLine("Opening Twitter...", "color2", 0);
       newTab(twitter);

@@ -18,7 +18,7 @@ whoami = [
   "<br>"
 ];
 
-social = [
+socials = [
   "<br>",
   'twitter        <a href="' + twitter + '" target="_blank">twitter/tomdhanabhon' + '</a>',
   'linkedin       <a href="' + linkedin + '" target="_blank">linkedin/dhanabhon' + "</a>",
@@ -43,7 +43,7 @@ help = [
   "<br>",
   '<span class="command">whois</span>          Who is Forrest?',
   '<span class="command">whoami</span>         Who are you?',
-  '<span class="command">social</span>         Display social networks',
+  '<span class="command">socials</span>        Display social networks',
   '<span class="command">secret</span>         Find the password',
   '<span class="command">projects</span>       View coding projects',
   '<span class="command">history</span>        View command history',
@@ -67,5 +67,14 @@ banner = [
 ];
 
 credit = [
-    "This website uses the source code from fkcodes.com.",
+  "This website uses the source code from fkcodes.com.",
+];
+
+version = [
+  "v1.0.1",
+];
+
+changelog = [
+  "v1.0.0: Initial release",
+  "v1.0.1: Bug fixes."
 ];
