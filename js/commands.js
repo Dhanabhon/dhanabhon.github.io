@@ -33,12 +33,6 @@ secret = [
   "<br>"
 ];
 
-projects = [
-  "<br>",
-  "Still curating... most projects are offline, on GitHub, or confidential.",
-  "<br>"
-];
-
 help = [
   "<br>",
   '<span class="command">whois</span>          Who is Forrest?',

@@ -111,7 +111,8 @@ function commander(cmd) {
       pw = true;
       break;
     case "projects":
-      loopLines(projects, "color2 margin", 80);
+      addLine("Opening GitHub...", "color2", 0);
+      newTab(github);
       break;
     case "password":
       addLine("<span class=\"inherit\"> Lol! You're joking, right? You\'re gonna have to try harder than that!😂</span>", "error", 100);
