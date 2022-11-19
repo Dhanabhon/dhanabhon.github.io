@@ -1,13 +1,13 @@
-var before = document.getElementById("before");
-var liner = document.getElementById("liner");
-var command = document.getElementById("typer"); 
-var textarea = document.getElementById("texter"); 
-var terminal = document.getElementById("terminal");
+let before = document.getElementById("before");
+let liner = document.getElementById("liner");
+let command = document.getElementById("typer"); 
+let textarea = document.getElementById("texter"); 
+let terminal = document.getElementById("terminal");
 
-var git = 0;
-var pw = false;
+let git = 0;
+let pw = false;
 let pwd = false;
-var commands = [];
+let commands = [];
 
 setTimeout(function() {
   loopLines(banner, "", 80);
@@ -86,7 +86,8 @@ function commander(cmd) {
       loopLines(whois, "color2 margin", 80);
       break;
     case "whoami":
-      loopLines(whoami, "color2 margin", 80);
+      addLine("Opening DHANABHON.COM", "color2", 0);
+      newTab(dhanabhon);
       break;
     case "credit":
       loopLines(credit, "color2 margin", 80);
@@ -96,6 +97,32 @@ function commander(cmd) {
       break;
     case "changelog":
       loopLines(changelog, "color2 margin", 80);
+      break;
+    case "hbd":
+      setTimeout(function() {
+        loopLines(hbd1, "", 100);
+        textarea.focus();
+      }, 100);
+      setTimeout(function() {
+        loopLines(hbd2, "", 100);
+        textarea.focus();
+      }, 2000);
+      setTimeout(function() {
+        loopLines(hbd3, "", 100);
+        textarea.focus();
+      }, 4000);
+      break;
+    case "231185":
+      setTimeout(function() {
+        loopLines(wish, "color2 margin", 100);
+        textarea.focus();
+      }, 100);
+      break;
+    case "261185":
+      setTimeout(function() {
+        addLine("Wrong! Is not your date of birth. try again!", "color2", 100);
+        textarea.focus();
+      }, 100);
       break;
     case "sudo":
       addLine("Oh no, you're not admin...", "color2", 80);
@@ -111,7 +138,7 @@ function commander(cmd) {
       pw = true;
       break;
     case "projects":
-      addLine("Opening GitHub...", "color2", 0);
+      addLine("Opening my project on GitHub...", "color2", 0);
       newTab(github);
       break;
     case "password":
@@ -149,9 +176,9 @@ function commander(cmd) {
       newTab(github);
       break;
     case "stackoverflow":
-        addLine("Opening StackOverflow...", "color2", 0);
-        newTab(stackoverflow);
-        break;
+      addLine("Opening StackOverflow...", "color2", 0);
+      newTab(stackoverflow);
+      break;
     default:
       addLine("<span class=\"inherit\">Command not found. For a list of commands, type <span class=\"command\">'help'</span>.</span>", "error", 100);
       break;
@@ -165,7 +192,7 @@ function newTab(link) {
 }
 
 function addLine(text, style, time) {
-  var t = "";
+  let t = "";
   for (let i = 0; i < text.length; i++) {
     if (text.charAt(i) == " " && text.charAt(i + 1) == " ") {
       t += "&nbsp;&nbsp;";
@@ -175,7 +202,7 @@ function addLine(text, style, time) {
     }
   }
   setTimeout(function() {
-    var next = document.createElement("p");
+    let next = document.createElement("p");
     next.innerHTML = t;
     next.className = style;
 
