@@ -36,7 +36,7 @@ secret = [
 
 help = [
   "<br>",
-  '<span class="command">whois</span>          Who is Forrest?',
+  '<span class="command">whois</span>          Who is Tom?',
   '<span class="command">whoami</span>         Who are you?',
   '<span class="command">socials</span>        Display social networks',
   '<span class="command">secret</span>         Find the password',
@@ -46,6 +46,8 @@ help = [
   '<span class="command">email</span>          Do not email me',
   '<span class="command">clear</span>          Clear terminal',
   '<span class="command">banner</span>         Display the header',
+  '<span class="command">version</span>        Display code version latest',
+  '<span class="command">changelog</span>      Display the change log of code.',
   '<span class="command">credit</span>         View credit',
   "<br>",
 ];
@@ -67,13 +69,14 @@ credit = [
 ];
 
 version = [
-  "v1.0.2",
+  "v1.0.3",
 ];
 
 changelog = [
   "v1.0.0: Initial release",
   "v1.0.1: Bug fixes.",
   "v1.0.2: Add new commands.",
+  "v1.0.3: Fix command description."
 ];
 
 hbd1 = [
