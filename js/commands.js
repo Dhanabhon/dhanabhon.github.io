@@ -9,7 +9,7 @@ let dhanabhon = "https://dhanabhon.com/about-me/";
 whois = [
   "<br>",
   "Hey, I'm Tom! 👋",
-  "I’m the CTO and co-founder of BrainiFit company in Bangkok, Thailand.",
+  "I’m the CTO and co-founder of APT X company in Bangkok, Thailand.",
   "<br>"
 ];
 
@@ -59,7 +59,7 @@ banner = [
     "| | | | |_| | / _ \\ |  \\| | / _ \\ |  _ \\| |_| | | | |  \\| || |  | | | | |\\/| |",
     "| |_| |  _  |/ ___ \\| |\\  |/ ___ \\| |_) |  _  | |_| | |\\  || |__| |_| | |  | |",
     "|____/|_| |_/_/   \\_\\_| \\_/_/   \\_\\____/|_| |_|\\___/|_| \\_(_)____\\___/|_|  |_|",
-    "                                                                        © 2023",
+    "                                                                        © 2024",
     '<span class="color2">Welcome to my interactive web terminal.</span>',
     "<span class=\"color2\">For a list of available commands, type</span> <span class=\"command\">'help'</span><span class=\"color2\">.</span>",                                                                          
 ];
@@ -69,14 +69,27 @@ credit = [
 ];
 
 version = [
-  "v1.0.3",
+  "v1.2.0",
 ];
 
 changelog = [
   "v1.0.0: Initial release",
   "v1.0.1: Bug fixes.",
-  "v1.0.2: Add new commands.",
-  "v1.0.3: Fix command description."
+  "v1.1.2: Add new commands.",
+  "v1.1.3: Fix command description.",
+  "v1.2.0: Add new commands.",
+];
+
+nan = [
+  "                                                                                         ",
+  " ######           ####      #####   ##   ##  #######           ###  ###  #####   ##   ## ",  
+  "   ##              ##      ### ###  ##   ##   ##   #            ##  ##  ### ###  ##   ## ",  
+  "   ##              ##      ##   ##  ##   ##   ##                 ####   ##   ##  ##   ## ",  
+  "   ##              ##      ##   ##   ## ##    ####                ##    ##   ##  ##   ## ",  
+  "   ##              ##      ##   ##   ## ##    ##                  ##    ##   ##  ##   ## ",  
+  "   ##              ##  ##  ### ###    ###     ##   #              ##    ### ###  ##   ## ",  
+  " ######           #######   #####     ###    #######             ####    #####    #####  ",  
+  "                                                                                         ",
 ];
 
 hbd1 = [

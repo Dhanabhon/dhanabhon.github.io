@@ -98,6 +98,9 @@ function commander(cmd) {
     case "changelog":
       loopLines(changelog, "color2 margin", 80);
       break;
+    case "nan":
+      loopLines(nan, "", 100);
+      break;
     case "hbd":
       setTimeout(function() {
         loopLines(hbd1, "", 100);
