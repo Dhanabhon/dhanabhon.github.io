@@ -101,6 +101,9 @@ function commander(cmd) {
     case "nan":
       loopLines(nan, "", 100);
       break;
+    case "nattanan":
+      loopLines(nattanan, "color2", 100);
+      break;
     case "hbd":
       setTimeout(function() {
         loopLines(hbd1, "", 100);
