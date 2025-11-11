@@ -9,7 +9,7 @@ let dhanabhon = "https://dhanabhon.com/about-me/";
 whois = [
   "<br>",
   "Hey, I'm Tom! 👋",
-  "I’m the CTO and co-founder of APT X company in Bangkok, Thailand.",
+  "I’m the CTO and co-founder of PT X company in Bangkok, Thailand.",
   "<br>"
 ];
 
@@ -53,48 +53,68 @@ help = [
 ];
 
 banner = [
-    '<span class="index">DHANABHON.COM Not A Corporation. All rights reserved.</span>',
+    '<span class="index">████ SYSTEM INITIALIZING ████</span>',
+    '<span class="color2">▓▓▓ DHANABHON.COM - SECURE TERMINAL v2.1.0 ▓▓▓</span>',
+    " ",
     " ____  _   _    _    _   _    _    ____  _   _  ___  _   _   ____ ___  __  __ ",
     "|  _ \\| | | |  / \\  | \\ | |  / \\  | __ )| | | |/ _ \\| \\ | | / ___/ _ \\|  \\/  |",
     "| | | | |_| | / _ \\ |  \\| | / _ \\ |  _ \\| |_| | | | |  \\| || |  | | | | |\\/| |",
     "| |_| |  _  |/ ___ \\| |\\  |/ ___ \\| |_) |  _  | |_| | |\\  || |__| |_| | |  | |",
     "|____/|_| |_/_/   \\_\\_| \\_/_/   \\_\\____/|_| |_|\\___/|_| \\_(_)____\\___/|_|  |_|",
-    "                                                                        © 2024",
-    '<span class="color2">Welcome to my interactive web terminal.</span>',
-    "<span class=\"color2\">For a list of available commands, type</span> <span class=\"command\">'help'</span><span class=\"color2\">.</span>",                                                                          
+    " ",
+    '<span class="color2">┌─[Connection Established]──[Status: SECURE]───────────────────────┐</span>',
+    '<span class="color2">│</span> <span class="command">ACCESS GRANTED</span> <span class="color2">- Welcome to the interactive terminal             │</span>',
+    '<span class="color2">│</span> Type <span class="command">\'help\'</span> for available commands                               <span class="color2">│</span>',
+    '<span class="color2">└──────────────────────────────────────────────────────────────────┘</span>',
+    " ",
 ];
 
 credit = [
-  "- This website uses the source code from fkcodes.com.",
+  "<br>",
+  "Original inspiration: <a href='https://fkcodes.com/' target='_blank' rel='noopener noreferrer'>FKCODES</a>",
+  "Developed by: Tom Dhanabhon",
+  "Enhanced with modern security, accessibility, and SEO best practices",
+  "<br>",
+  "Built with ❤️ using vanilla JavaScript",
+  "<br>"
 ];
 
 version = [
-  "v1.2.0",
+  "v2.1.0",
 ];
 
 changelog = [
-  "v1.0.0: Initial release",
-  "v1.0.1: Bug fixes.",
-  "v1.1.2: Add new commands.",
-  "v1.1.3: Fix command description.",
-  "v1.2.0: Add new commands.",
-];
-
-nan = [
-  "                                                                                         ",
-  " ######           ####      #####   ##   ##  #######           ###  ###  #####   ##   ## ",  
-  "   ##              ##      ### ###  ##   ##   ##   #            ##  ##  ### ###  ##   ## ",  
-  "   ##              ##      ##   ##  ##   ##   ##                 ####   ##   ##  ##   ## ",  
-  "   ##              ##      ##   ##   ## ##    ####                ##    ##   ##  ##   ## ",  
-  "   ##              ##      ##   ##   ## ##    ##                  ##    ##   ##  ##   ## ",  
-  "   ##              ##  ##  ### ###    ###     ##   #              ##    ### ###  ##   ## ",  
-  " ######           #######   #####     ###    #######             ####    #####    #####  ",  
-  "                                                                                         ",
-];
-
-nattanan = [
   "<br>",
-  "♥️ ♥️ ♥️ I love you ♥️ ♥️ ♥️",
+  "<span class='command'>v2.1.0</span> - 2025-11-12 - <span class='index'>HACKER MODE</span>",
+  "  • Complete cyberpunk/hacker UI transformation",
+  "  • Added CRT monitor effects with animated scanlines",
+  "  • Implemented neon green (#00ff41) color scheme with glowing text",
+  "  • Added RGB chromatic aberration for authentic CRT look",
+  "  • Enhanced cursor with pulsing glow animation",
+  "  • Added screen flicker and boot-up animations",
+  "  • Implemented cyan accents and hot pink errors with glow",
+  "  • Added vignette effect and screen curvature",
+  "  • Enhanced banner with 'SYSTEM INITIALIZING' message",
+  "  • Optimized for performance with mobile-friendly reduced effects",
+  "  • Added prefers-reduced-motion accessibility support",
+  "  • Fixed focus loss bug after opening external links",
+  "<br>",
+  "<span class='command'>v2.0.0</span> - 2025-11-12",
+  "  • Fixed critical XSS vulnerabilities",
+  "  • Added comprehensive security measures",
+  "  • Implemented ARIA labels and semantic HTML",
+  "  • Added SEO meta tags and Open Graph support",
+  "  • Replaced deprecated keyCode API with modern key API",
+  "  • Added JSDoc documentation throughout",
+  "  • Removed inline event handlers",
+  "  • Enhanced error handling",
+  "  • Improved code quality and maintainability",
+  "<br>",
+  "<span class='command'>v1.2.0</span> - Add new commands",
+  "<span class='command'>v1.1.3</span> - Fix command description",
+  "<span class='command'>v1.1.2</span> - Add new commands",
+  "<span class='command'>v1.0.1</span> - Bug fixes",
+  "<span class='command'>v1.0.0</span> - Initial release",
   "<br>"
 ];
 

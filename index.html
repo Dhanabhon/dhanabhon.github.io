@@ -1,31 +1,59 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>DHANABHON.COM | Terminal</title>
+
+    <!-- Primary Meta Tags -->
+    <title>Tom Dhanabhon - Interactive Terminal Portfolio | CTO & Co-founder</title>
+    <meta name="title" content="Tom Dhanabhon - Interactive Terminal Portfolio" />
+    <meta name="description" content="Tom Dhanabhon - CTO and co-founder of APT X company in Bangkok, Thailand. Explore my interactive web terminal portfolio with command-line interface." />
+    <meta name="author" content="Tom Dhanabhon" />
+    <meta name="keywords" content="Tom Dhanabhon, CTO, Co-founder, Web Developer, Terminal Portfolio, Bangkok, Thailand, APT X" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://dhanabhon.github.io/" />
+    <meta property="og:title" content="Tom Dhanabhon - Interactive Terminal Portfolio" />
+    <meta property="og:description" content="CTO and co-founder of APT X company. Explore my interactive web terminal portfolio." />
+    <meta property="og:site_name" content="DHANABHON.COM" />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://dhanabhon.github.io/" />
+    <meta property="twitter:title" content="Tom Dhanabhon - Interactive Terminal Portfolio" />
+    <meta property="twitter:description" content="CTO and co-founder of APT X company. Explore my interactive web terminal portfolio." />
+    <meta property="twitter:creator" content="@TomDhanabhon" />
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://dhanabhon.github.io/" />
+
+    <!-- Stylesheets and Favicon -->
     <link rel="stylesheet" type="text/css" media="screen" href="css/style.css" />
     <link rel="icon" type="image/x-icon" href="img/favicon.ico" />
   </head>
   <body>
-    <div id="terminal">
-      <a id="before"></a>
-    </div>
-    <div id="command" onclick="$('texter').focus();">
-      <textarea
-        type="text"
-        id="texter"
-        onkeyup="typeIt(this, event)"
-        onkeydown="typeIt(this, event); 
-                   moveIt(this.value.length, event)"
-        onkeypress="typeIt(this, event);"
-        autofocus
-      ></textarea>
-      <div id="liner">
-        <span id="typer"></span><b class="cursor" id="cursor">█</b>
+    <main role="main">
+      <div id="terminal" role="log" aria-live="polite" aria-relevant="additions" aria-label="Terminal output">
+        <a id="before"></a>
       </div>
-    </div>
+      <div id="command" role="application" aria-label="Command input area">
+        <textarea
+          id="texter"
+          aria-label="Terminal command input - Type commands and press Enter"
+          placeholder="Type 'help' for available commands"
+          autofocus
+          autocomplete="off"
+          autocorrect="off"
+          autocapitalize="off"
+          spellcheck="false"
+        ></textarea>
+        <div id="liner">
+          <span id="typer" aria-hidden="true"></span><b class="cursor" id="cursor" aria-hidden="true">█</b>
+        </div>
+      </div>
+    </main>
     <script src="js/caret.js"></script>
     <script src="js/commands.js"></script>
     <script src="js/main.js"></script>
